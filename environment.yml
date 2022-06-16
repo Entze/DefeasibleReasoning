@@ -1,0 +1,9 @@
+name: DefeasibleReasoning
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.6,<4
+  - notebook>=6.4,<7
+  - jupyterlab>=3.4,<4
+  - frozendict>=2.3,<3
+  - more-itertools>=4.3,<5
