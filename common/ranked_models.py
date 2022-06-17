@@ -96,7 +96,7 @@ def print_statement_ranking(statement_ranking: StatementRanking):
     pad = len(str(r)) + 1
 
     if len(statement_ranking) > 1:
-        for i in range(r + 1):
+        for i in range(r):
             print('{}:'.format(i).rjust(pad), end=' ')
             statements = statement_ranking[i]
             print_knowledge_base(statements)
